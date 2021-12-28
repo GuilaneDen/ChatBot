@@ -1,16 +1,11 @@
-# Hello World
-
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install helloworld.
-
-Use node v16 use :
-```bash
-nvm install 16
+```console
+npm install
 ```
-
-```bash
-npm i
+Or
+```console
+yarn
 ```
 
 ## Usage
@@ -20,15 +15,16 @@ Start the application dev with :
 ```bash
 npm run start
 ```
-
-Created the dist with :
-
+Or
 ```bash
-npm run dist
+yarn start
 ```
+## Bot Command
 
-Analyse the coding rules with :
-
-```bash
-npm run lint
-```
+- /help
+- /hello
+- /nba (First name) (Last name)
+- /weather
+- /hour
+- /song (Artist name)
+- /chucknorris

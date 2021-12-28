@@ -6,14 +6,14 @@ const chatbot = new ChatBot(botsArray);
 
 chatbot.renderBotNavbar();
 
-document.getElementById('research').onclick = function () {
+document.getElementById('research').onclick = () => {
   const message = document.getElementById('search').value;
   document.getElementById('search').value = '';
   chatbot.sendMessage(message, chatbot.bots[0]);
   chatbot.searchCommand(message);
 };
 
-document.getElementById('search').onkeyup = function (e) {
+document.getElementById('search').onkeyup = (e) => {
   if (e.key === 'Enter') {
     const message = document.getElementById('search').value;
     document.getElementById('search').value = '';

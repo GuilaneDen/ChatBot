@@ -15,6 +15,9 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     'linebreak-style': 0,
     'global-require': 0,
-    'eslint linebreak-style': [0, 'error', 'windows']
+    'eslint linebreak-style': [0, 'error', 'windows'],
+    'no-param-reassign': [2, {
+      'props': false
+   }]
   }
 };
